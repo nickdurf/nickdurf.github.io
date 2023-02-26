@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portafolio Nicolas Duran</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Nicolas Duran</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+                <button id="mode-btn" class="mode-btn"><img class="img-mode" src="/ChatGPT/Prueba 1/dark_mode.png"
+                        alt="dark_mode"></button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="banner">
+            <div class="container">
+                <div class="circle-wrapper">
+                    <img src="ndf_white_bg.jpg" alt="nicolas_df_avatar" />
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1>Desarrollador Front End</h1>
+                        <p>Experto en HTML, CSS, JavaScript, Bootstrap, React y otras tecnologías front end.</p>
+                        <button class="btn btn-primary">Ver Proyectos</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre-mi">
+            <div class="container">
+                <h2>Sobre mí</h2>
+                <p>Texto que describe al desarrollador web, sus habilidades, experiencia y objetivos.</p>
+            </div>
+        </section>
+
+        <section id="proyectos">
+            <div class="container">
+                <h2>Proyectos</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/proyecto1.png" alt="Proyecto 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Proyecto 1</h5>
+                                <p class="card-text">Breve descripción del proyecto.</p>
+                                <a href="#" class="btn btn-primary">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/proyecto2.png" alt="Proyecto 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Proyecto 2</h5>
+                                <p class="card-text">Breve descripción del proyecto.</p>
+                                <a href="#" class="btn btn-primary">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="images/proyecto2.png" alt="Proyecto 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Proyecto 3</h5>
+                                <p class="card-text">Breve descripción del proyecto.</p>
+                                <a href="#" class="btn btn-primary">Ver más</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contacto">
+            <div class="container">
+                <h2>Contacto</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="correo">Correo electrónico</label>
+                        <input type="email" class="form-control" id="correo"
+                            placeholder="Ingresa tu correo electrónico">
+                    </div>
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea class="form-control" id="mensaje" rows="5"
+                            placeholder="Escribe aquí tu mensaje"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Derechos reservados &copy; 2023 Desarrollador Front End</p>
+        </div>
+    </footer>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+
+</body>
+
+</html>
